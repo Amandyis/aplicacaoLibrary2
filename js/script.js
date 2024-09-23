@@ -4,13 +4,13 @@ let paginaAtual = 1;
 const livrosPorPagina = 5;
 
 async function buscaLivro(termoDeBusca) {
-    const conexao = await fetch(`http://localhost:3000/livros?q=${termoDeBusca}`);
+    const conexao = await fetch(`http://192.168.208.74:3001/livros?q=${termoDeBusca}`);
     const conexaoConvertida = await conexao.json();
     return conexaoConvertida;
 }
 
 async function conectaApi() {
-    const conexao = await fetch("http://localhost:3000/livros");
+    const conexao = await fetch("http://192.168.208.74:3001/livros");
     const conexaoConvertida = await conexao.json();
     return conexaoConvertida;
 }

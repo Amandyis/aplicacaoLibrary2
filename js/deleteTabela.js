@@ -15,7 +15,7 @@ async function excluirLivroTabela() {
     if (livroIdParaExcluir === null) return;
 
     try {
-        await fetch(`http://localhost:3000/livros/${livroIdParaExcluir}`, {
+        await fetch(`http://192.168.208.74:3001/livros/${livroIdParaExcluir}`, {
             method: 'DELETE',
         });
 

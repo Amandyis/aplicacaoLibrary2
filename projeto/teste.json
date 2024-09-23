@@ -1,28 +1,10 @@
 {
   "livros": [
     {
-      "titulo": "Corte de Nevoa e Fúria",
-      "imagem": "/img/acotar2.jpg",
-      "genero": "Fantasia",
-      "id": 2
-    },
-    {
-      "id": 3,
-      "titulo": "Corte de Assas e Ruina",
-      "imagem": "/img/acotar3.jpg",
-      "genero": "Fantasia"
-    },
-    {
       "id": 4,
       "titulo": "Corte de Chamas Prateadas",
       "imagem": "/img/acotar4.jpg",
       "genero": "Fantasia"
-    },
-    {
-      "id": 1,
-      "titulo": "A Hipótese do Amor",
-      "imagem": "/img/livro_romance1.jpeg",
-      "genero": "Romance"
     },
     {
       "id": 5,
