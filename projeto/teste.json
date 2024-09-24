@@ -1,79 +1,79 @@
 {
   "livros": [
     {
-      "id": 6,
-      "titulo": "A cinco passos de você",
+      "titulo": "A cinco passos de você!",
       "imagem": "/img/romance2.jpg",
-      "genero": "Romance"
+      "genero": "Romance",
+      "id": "6"
     },
     {
-      "id": 7,
+      "id": "7",
       "titulo": "Amor e Gelato",
       "imagem": "/img/romance3.jpg",
       "genero": "Romance"
     },
     {
-      "id": 8,
+      "id": "8",
       "titulo": "O Acordo",
       "imagem": "/img/romance4.jpg",
       "genero": "Romance"
     },
     {
-      "id": 9,
+      "id": "9",
       "titulo": "Novembro 9",
       "imagem": "/img/romance5.jpg",
       "genero": "Romance"
     },
     {
-      "id": 10,
+      "id": "10",
       "titulo": "Uma Farsa de Amor na Espanha",
       "imagem": "/img/romance6.jpg",
       "genero": "Romance"
     },
     {
-      "id": 11,
+      "id": "11",
       "titulo": "Leitura de Verão",
       "imagem": "/img/romance7.jpg",
       "genero": "Romance"
     },
     {
-      "id": 12,
+      "id": "12",
       "titulo": "Trono de Vidro",
       "imagem": "/img/trono1.jpg",
       "genero": "Fantasia"
     },
     {
-      "id": 13,
+      "id": "13",
       "titulo": "Trono de Vidro - Coroa da Meia Noite",
       "imagem": "/img/trono2.jpg",
       "genero": "Fantasia"
     },
     {
-      "id": 14,
+      "id": "14",
       "titulo": "Trono de Vidro - Herdeira do Fogo",
       "imagem": "/img/trono3.jpg",
       "genero": "Fantasia"
     },
     {
-      "id": 15,
+      "id": "15",
       "titulo": "Teto Para Dois",
       "genero": "Romance",
       "imagem": "https://m.media-amazon.com/images/I/51q8j4sXexL._SY445_SX342_.jpg"
     },
     {
-      "id": 18,
+      "id": "18",
       "titulo": "Verity",
       "imagem": "https://m.media-amazon.com/images/I/91SDZ2eUj+L._SY522_.jpg",
       "genero": "Suspense"
     },
     {
-      "id": 19,
+      "id": "19",
       "titulo": "Até o Verão Terminar",
       "imagem": "https://m.media-amazon.com/images/I/81u8c5lziEL._SY522_.jpg",
       "genero": "Romance"
     },
     {
-      "id": 21,
+      "id": "21",
       "titulo": "Melhor Do Que Nos Filmes",
       "imagem": "https://m.media-amazon.com/images/I/61y5iLUKS3L._SY522_.jpg",
       "genero": "Romance"
@@ -82,13 +82,13 @@
       "titulo": "Corte de Rosas e Espinhos",
       "imagem": "https://m.media-amazon.com/images/I/514evAZoQ5L._SY445_SX342_.jpg",
       "genero": "Fantasia",
-      "id": 20
+      "id": "20"
     },
     {
-      "id": 110,
-      "titulo": "Memórias de um sargento de milicias",
+      "titulo": "Memórias de um sargento de miliciass",
       "imagem": "https://cirandacultural.fbitsstatic.net/img/p/memorias-de-um-sargento-de-milicias-71218/257737.jpg?w=520&h=520&v=no-change&qs=ignore",
-      "genero": "romance"
+      "genero": "romance",
+      "id": "110"
     }
   ]
 }

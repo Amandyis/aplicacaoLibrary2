@@ -40,7 +40,7 @@ async function atualizaLivro(evento) {
     const id = Number(document.getElementById('idLivroEditar').value);
     const imagem = document.getElementById('inputCapaEditar').value;
 
-    await fetch(`http://192.168.208.74:3001/livros${id}`, {
+    await fetch(`http://192.168.208.74:3001/livros/${id}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',
@@ -51,7 +51,11 @@ async function atualizaLivro(evento) {
     window.location.href = "controleLivros.html";
 }
 
-const form = document.getElementById('form-cadastroLivro');
+const form = document.getElementById('form-cadastroLivroEdicao');
 
 form.addEventListener('submit', atualizaLivro);
-window.onload = carregarDadosLivro; 
+window.onload = async () => {
+    const form = document.getElementById('form-cadastroLivroEdicao');
+    await carregarDadosLivro();
+    form.addEventListener('submit', atualizaLivro);
+};
