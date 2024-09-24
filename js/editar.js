@@ -51,5 +51,7 @@ async function atualizaLivro(evento) {
     window.location.href = "controleLivros.html";
 }
 
-document.getElementById('form-cadastroLivro').addEventListener('submit', atualizaLivro);
+const form = document.getElementById('form-cadastroLivro');
+
+form.addEventListener('submit', atualizaLivro);
 window.onload = carregarDadosLivro; 

@@ -83,6 +83,12 @@
       "imagem": "https://m.media-amazon.com/images/I/514evAZoQ5L._SY445_SX342_.jpg",
       "genero": "Fantasia",
       "id": 20
+    },
+    {
+      "id": 110,
+      "titulo": "Memórias de um sargento de milicias",
+      "imagem": "https://cirandacultural.fbitsstatic.net/img/p/memorias-de-um-sargento-de-milicias-71218/257737.jpg?w=520&h=520&v=no-change&qs=ignore",
+      "genero": "romance"
     }
   ]
 }
