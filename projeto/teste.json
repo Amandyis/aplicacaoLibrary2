@@ -1,18 +1,6 @@
 {
   "livros": [
     {
-      "id": 4,
-      "titulo": "Corte de Chamas Prateadas",
-      "imagem": "/img/acotar4.jpg",
-      "genero": "Fantasia"
-    },
-    {
-      "id": 5,
-      "titulo": "É Assim que Acaba",
-      "imagem": "/img/romance1.jpg",
-      "genero": "Romance"
-    },
-    {
       "id": 6,
       "titulo": "A cinco passos de você",
       "imagem": "/img/romance2.jpg",

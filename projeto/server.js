@@ -29,5 +29,5 @@ async function criaLivro(id, titulo, imagem, genero) {
 
 export const listaDadosLivro = {
   conectaApi,
-  criaLivro,
+  criaLivro
 };
